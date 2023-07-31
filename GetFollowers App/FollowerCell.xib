@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FollowerCell" id="gTV-IL-0wX" customClass="FollowerCell" customModule="GetFollowers_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="239" height="141"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="239" height="141"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xGh-8o-mg7">
+                        <rect key="frame" x="0.0" y="0.0" width="239" height="141"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Vbk-Pu-mrN">
+                                <rect key="frame" x="4" y="5" width="40" height="38.666666666666671"/>
+                                <color key="tintColor" red="0.3152218852" green="0.6964974531" blue="0.94995512199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="W7f-z3-frW"/>
+                                    <constraint firstAttribute="width" constant="40" id="gcv-qq-Ruu"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="gIY-M5-5uF">
+                                <rect key="frame" x="8" y="52" width="223" height="81"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created at :  2023 - 7-24 12:30 pm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ik-0t-lFO">
+                                        <rect key="frame" x="0.0" y="0.0" width="223" height="40.666666666666664"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVf-xc-r01">
+                                        <rect key="frame" x="0.0" y="40.666666666666671" width="84.666666666666671" height="40.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ahmed ali" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihj-BM-Odw">
+                                <rect key="frame" x="55" y="14.333333333333334" width="176" height="19.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gIY-M5-5uF" secondAttribute="trailing" constant="8" id="EUN-6F-SCF"/>
+                            <constraint firstItem="Vbk-Pu-mrN" firstAttribute="leading" secondItem="xGh-8o-mg7" secondAttribute="leading" constant="4" id="K0K-ju-QIN"/>
+                            <constraint firstAttribute="bottom" secondItem="gIY-M5-5uF" secondAttribute="bottom" constant="8" id="Meu-HE-COc"/>
+                            <constraint firstAttribute="trailing" secondItem="ihj-BM-Odw" secondAttribute="trailing" constant="8" id="QUe-Mw-LKi"/>
+                            <constraint firstItem="gIY-M5-5uF" firstAttribute="top" secondItem="Vbk-Pu-mrN" secondAttribute="bottom" constant="8" id="RQ4-bP-Q52"/>
+                            <constraint firstItem="Vbk-Pu-mrN" firstAttribute="top" secondItem="xGh-8o-mg7" secondAttribute="top" constant="4" id="Wp6-GP-XKm"/>
+                            <constraint firstItem="ihj-BM-Odw" firstAttribute="centerY" secondItem="Vbk-Pu-mrN" secondAttribute="centerY" id="cbf-pW-ir1"/>
+                            <constraint firstItem="ihj-BM-Odw" firstAttribute="leading" secondItem="Vbk-Pu-mrN" secondAttribute="trailing" constant="11" id="euD-8U-lPQ"/>
+                            <constraint firstItem="gIY-M5-5uF" firstAttribute="leading" secondItem="xGh-8o-mg7" secondAttribute="leading" constant="8" id="ez0-aV-tKh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="xGh-8o-mg7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Y35-NU-UZN"/>
+                <constraint firstAttribute="bottom" secondItem="xGh-8o-mg7" secondAttribute="bottom" id="gEs-de-4Ac"/>
+                <constraint firstItem="xGh-8o-mg7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="gei-aY-phY"/>
+                <constraint firstAttribute="trailing" secondItem="xGh-8o-mg7" secondAttribute="trailing" id="k69-yH-Vzd"/>
+            </constraints>
+            <size key="customSize" width="239" height="141"/>
+            <connections>
+                <outlet property="currentTimeLbl" destination="vVf-xc-r01" id="zC9-iT-45P"/>
+                <outlet property="followerNameLbl" destination="ihj-BM-Odw" id="kDH-Fb-mLg"/>
+            </connections>
+            <point key="canvasLocation" x="127.48091603053435" y="49.647887323943664"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="person.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

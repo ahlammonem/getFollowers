@@ -13,6 +13,9 @@
 		0C21D5B42A76F813001D1652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C21D5B22A76F813001D1652 /* Main.storyboard */; };
 		0C21D5B62A76F814001D1652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C21D5B52A76F814001D1652 /* Assets.xcassets */; };
 		0C21D5B92A76F814001D1652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C21D5B72A76F814001D1652 /* LaunchScreen.storyboard */; };
+		0C21D5C22A7703A8001D1652 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C21D5C02A7703A8001D1652 /* FollowerCell.swift */; };
+		0C21D5C32A7703A8001D1652 /* FollowerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C21D5C12A7703A8001D1652 /* FollowerCell.xib */; };
+		0C21D5C52A7705BC001D1652 /* FollowersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C21D5C42A7705BC001D1652 /* FollowersVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0C21D5B52A76F814001D1652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C21D5B82A76F814001D1652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C21D5BA2A76F814001D1652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C21D5C02A7703A8001D1652 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		0C21D5C12A7703A8001D1652 /* FollowerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FollowerCell.xib; sourceTree = "<group>"; };
+		0C21D5C42A7705BC001D1652 /* FollowersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				0C21D5B52A76F814001D1652 /* Assets.xcassets */,
 				0C21D5B72A76F814001D1652 /* LaunchScreen.storyboard */,
 				0C21D5BA2A76F814001D1652 /* Info.plist */,
+				0C21D5C02A7703A8001D1652 /* FollowerCell.swift */,
+				0C21D5C12A7703A8001D1652 /* FollowerCell.xib */,
+				0C21D5C42A7705BC001D1652 /* FollowersVC.swift */,
 			);
 			path = "GetFollowers App";
 			sourceTree = "<group>";
@@ -128,6 +137,7 @@
 				0C21D5B92A76F814001D1652 /* LaunchScreen.storyboard in Resources */,
 				0C21D5B62A76F814001D1652 /* Assets.xcassets in Resources */,
 				0C21D5B42A76F813001D1652 /* Main.storyboard in Resources */,
+				0C21D5C32A7703A8001D1652 /* FollowerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +151,8 @@
 				0C21D5B12A76F813001D1652 /* ViewController.swift in Sources */,
 				0C21D5AD2A76F813001D1652 /* AppDelegate.swift in Sources */,
 				0C21D5AF2A76F813001D1652 /* SceneDelegate.swift in Sources */,
+				0C21D5C52A7705BC001D1652 /* FollowersVC.swift in Sources */,
+				0C21D5C22A7703A8001D1652 /* FollowerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
